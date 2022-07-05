@@ -5,7 +5,7 @@
 
 class App : public piksel::BaseApp {
 public:
-    App() : piksel::BaseApp(800, 800) {}
+    App() : piksel::BaseApp(800, 800, "Conway's Game of Life") {}
     void setup();
     void draw(piksel::Graphics& g);
     void keyPressed(int key);

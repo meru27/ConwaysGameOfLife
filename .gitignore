@@ -1,17 +1,8 @@
-# Ignora archivos del sistema Mac 
-.DS_store
-
-# Ignora la carpeta node_modules
-node_modules
-build_native
+# Ignore directories
+build
 main
 data
 .vscode
+.git
 
 
-
-# Ignora los archivos relacionados a API keys
-.env
-
-# Ignora archivos de configuración SASS
-.sass-cache
