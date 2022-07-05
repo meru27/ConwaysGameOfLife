@@ -1,0 +1,312 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jul 05 09:06:17 2022
+
+# Variables
+
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# automatic
+?F = $(notdir $?)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automa 
+tic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/dev/ConwaysGameOfLife
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"eae11d900af9c06c6da7ac60cedf8cf9.es","_translationsConfigFile":"C:\\Users\\daniel.meruelo\\AppData\\Roaming\\Code\\clp\\eae11d900af9c06c6da7ac60cedf8cf9.es\\tcf.json","_cacheRoot":"C:\\Users\\daniel.meruelo\\AppData\\Roaming\\Code\\clp\\eae11d900af9c06c6da7ac60cedf8cf9.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\daniel.meruelo\\AppData\\Roaming\\Code\\clp\\eae11d900af9c06c6da7ac60cedf8cf9.es\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\daniel.meruelo\\AppData\\Roaming\\Code\\clp\\eae11d900af9c06c6da7ac60cedf8cf9.es\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\daniel.meruelo\OneDrive - GrupoAntolin
+# environment
+SSF_LIBRARY_PATH = C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\DANIEL~1.MER\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f976bc1a-3543-4658-9fc2-440de748ac1a-sock
+# environment
+VSCODE_CWD = C:\Users\daniel.meruelo\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\SDK\py310\Scripts\;C:\SDK\py310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\SDK;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\SDK\jdk-11.0.15\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\PowerShell\7\;C:\Program Files\CMake\bin;C:\Users\daniel.meruelo\AppData\Local\Microsoft\WindowsApps;C:\Users\daniel.meruelo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\daniel.meruelo\AppData\Local\Microsoft\WindowsApps;C:\Users\daniel.meruelo\AppData\Local\Programs\Git\cmd
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\daniel.meruelo
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15520_DZEBBLYUVTQTCCUE
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = GAN0282L
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+USERDNSDOMAIN = GRUPOANTOLIN.COM
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = daniel.meruelo
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\daniel.meruelo\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\GANVMDC20
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = GRUPOANTOLIN
+# environment
+MFLAGS = -Rrqp
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\daniel.meruelo\OneDrive - GrupoAntolin
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\daniel.meruelo\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\301dd29220933de19f8f2ba6ff59f113-1.68.1-main-sock
+# environment
+HOMEPATH = \Users\daniel.meruelo
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+TCVIS_CLUSTER_PATH = C:\usr\TC13Vis\x64\Products\Professional\VisView.exe
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SNC_LIB_64 = C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\daniel.meruelo\AppData\Roaming
+# environment
+TEMP = C:\Users\DANIEL~1.MER\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+UATDATA = C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+# automatic
+^F = $(notdir $^)
+# environment
+SSF_LIBRARY_PATH_64 = C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8c01
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+SNC_LIB = C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 15520
+# environment
+USERDOMAIN_ROAMINGPROFILE = GRUPOANTOLIN
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=16/115=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\SDK\py310\ (key C:/SDK/py310/, mtime 1652092071): 21 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1652705175): 32 files, no impossibilities.
+# . (key c:/dev/ConwaysGameOfLife, mtime 1657004008): 8 files, no impossibilities.
+# C:\SDK\py310\Scripts\ (key C:/SDK/py310/Scripts/, mtime 1652092071): 5 files, no impossibilities.
+# C:\Users\daniel.meruelo\AppData\Local\Programs\Git\cmd (key C:/Users/daniel.meruelo/AppData/Local/Programs/Git/cmd, mtime 1657003250): 8 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1651829864): 7 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1650956320): 5 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1651829860): 4 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\SDK (key C:/SDK, mtime 1656928320): 5 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1654773000): 127 files, no impossibilities.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1657003965): 7 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1648453088): 131 files, no impossibilities.
+# C:\Users\daniel.meruelo\AppData\Local\Microsoft\WindowsApps (key C:/Users/daniel.meruelo/AppData/Local/Microsoft/WindowsApps, mtime 1657002374): 24 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1655729506): 173 files, no impossibilities.
+# C:\Users\daniel.meruelo\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/daniel.meruelo/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1655896925): 4 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1651829911): 12 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1657002874): 2992 files, no impossibilities.
+# C:\SDK\jdk-11.0.15\bin\ (key C:/SDK/jdk-11.0.15/bin/, mtime  
+make.exe: *** No rule to make target 'all'.  Stop.
+
+1655884827): 127 files, no impossibilities.
+# C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1656067136): 478 files, no impossibilities.
+
+# 4170 files, no impossibilities in 20 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 9 (7) / strings = 4073 / storage = 68677 B / avg = 16 B
+# current buf: size = 8174 B / used = 3355 B / count = 126 / avg = 26 B
+# other used: total = 60503 B / count = 3947 / avg = 15 B
+# other free: total = 70 B / max = 23 B / min = 2 B / avg = 8 B
+
+# strcache performance: lookups = 4198 / hit rate = 2%
+# hash-table stats:
+# Load=4073/8192=50%, Rehash=0, Collisions=1751/4198=42%
+# Finished Make data base on Tue Jul 05 09:06:17 2022
+
+ 
